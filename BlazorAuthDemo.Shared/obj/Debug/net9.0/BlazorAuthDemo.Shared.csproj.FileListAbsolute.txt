@@ -1,0 +1,11 @@
+C:\Users\lucas.freitas\source\repos\Blazor\SimpleAuth\BlazorAuthDemo.Shared\bin\Debug\net9.0\BlazorAuthDemo.Shared.deps.json
+C:\Users\lucas.freitas\source\repos\Blazor\SimpleAuth\BlazorAuthDemo.Shared\bin\Debug\net9.0\BlazorAuthDemo.Shared.dll
+C:\Users\lucas.freitas\source\repos\Blazor\SimpleAuth\BlazorAuthDemo.Shared\bin\Debug\net9.0\BlazorAuthDemo.Shared.pdb
+C:\Users\lucas.freitas\source\repos\Blazor\SimpleAuth\BlazorAuthDemo.Shared\obj\Debug\net9.0\BlazorAuthDemo.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucas.freitas\source\repos\Blazor\SimpleAuth\BlazorAuthDemo.Shared\obj\Debug\net9.0\BlazorAuthDemo.Shared.AssemblyInfoInputs.cache
+C:\Users\lucas.freitas\source\repos\Blazor\SimpleAuth\BlazorAuthDemo.Shared\obj\Debug\net9.0\BlazorAuthDemo.Shared.AssemblyInfo.cs
+C:\Users\lucas.freitas\source\repos\Blazor\SimpleAuth\BlazorAuthDemo.Shared\obj\Debug\net9.0\BlazorAuthDemo.Shared.csproj.CoreCompileInputs.cache
+C:\Users\lucas.freitas\source\repos\Blazor\SimpleAuth\BlazorAuthDemo.Shared\obj\Debug\net9.0\BlazorAuthDemo.Shared.dll
+C:\Users\lucas.freitas\source\repos\Blazor\SimpleAuth\BlazorAuthDemo.Shared\obj\Debug\net9.0\refint\BlazorAuthDemo.Shared.dll
+C:\Users\lucas.freitas\source\repos\Blazor\SimpleAuth\BlazorAuthDemo.Shared\obj\Debug\net9.0\BlazorAuthDemo.Shared.pdb
+C:\Users\lucas.freitas\source\repos\Blazor\SimpleAuth\BlazorAuthDemo.Shared\obj\Debug\net9.0\ref\BlazorAuthDemo.Shared.dll
