@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\lucas.freitas\\source\\repos\\Blazor\\SimpleAuth\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{78B4DBDA-16EB-44BA-8870-9804951D31BD}|BlazorAuthDemo.Server\\BlazorAuthDemo.Server.csproj|c:\\users\\lucas.freitas\\source\\repos\\blazor\\simpleauth\\blazorauthdemo.server\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78B4DBDA-16EB-44BA-8870-9804951D31BD}|BlazorAuthDemo.Server\\BlazorAuthDemo.Server.csproj|solutionrelative:blazorauthdemo.server\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB94BE0B-5ADD-4289-9794-8C52C1C58A19}|BlazorAuthDemo.Shared\\BlazorAuthDemo.Shared.csproj|c:\\users\\lucas.freitas\\source\\repos\\blazor\\simpleauth\\blazorauthdemo.shared\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB94BE0B-5ADD-4289-9794-8C52C1C58A19}|BlazorAuthDemo.Shared\\BlazorAuthDemo.Shared.csproj|solutionrelative:blazorauthdemo.shared\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{78B4DBDA-16EB-44BA-8870-9804951D31BD}|BlazorAuthDemo.Server\\BlazorAuthDemo.Server.csproj|c:\\users\\lucas.freitas\\source\\repos\\blazor\\simpleauth\\blazorauthdemo.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{78B4DBDA-16EB-44BA-8870-9804951D31BD}|BlazorAuthDemo.Server\\BlazorAuthDemo.Server.csproj|solutionrelative:blazorauthdemo.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{78B4DBDA-16EB-44BA-8870-9804951D31BD}|BlazorAuthDemo.Server\\BlazorAuthDemo.Server.csproj|c:\\users\\lucas.freitas\\source\\repos\\blazor\\simpleauth\\blazorauthdemo.server\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78B4DBDA-16EB-44BA-8870-9804951D31BD}|BlazorAuthDemo.Server\\BlazorAuthDemo.Server.csproj|solutionrelative:blazorauthdemo.server\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{78B4DBDA-16EB-44BA-8870-9804951D31BD}|BlazorAuthDemo.Server\\BlazorAuthDemo.Server.csproj|c:\\users\\lucas.freitas\\source\\repos\\blazor\\simpleauth\\blazorauthdemo.server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{78B4DBDA-16EB-44BA-8870-9804951D31BD}|BlazorAuthDemo.Server\\BlazorAuthDemo.Server.csproj|solutionrelative:blazorauthdemo.server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78B4DBDA-16EB-44BA-8870-9804951D31BD}|BlazorAuthDemo.Server\\BlazorAuthDemo.Server.csproj|c:\\users\\lucas.freitas\\source\\repos\\blazor\\simpleauth\\blazorauthdemo.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{78B4DBDA-16EB-44BA-8870-9804951D31BD}|BlazorAuthDemo.Server\\BlazorAuthDemo.Server.csproj|solutionrelative:blazorauthdemo.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{78B4DBDA-16EB-44BA-8870-9804951D31BD}|BlazorAuthDemo.Server\\BlazorAuthDemo.Server.csproj|c:\\users\\lucas.freitas\\source\\repos\\blazor\\simpleauth\\blazorauthdemo.server\\helpers\\passwordhasherhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{78B4DBDA-16EB-44BA-8870-9804951D31BD}|BlazorAuthDemo.Server\\BlazorAuthDemo.Server.csproj|c:\\users\\lucas.freitas\\source\\repos\\blazor\\simpleauth\\blazorauthdemo.server\\blazorauthdemo.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{78B4DBDA-16EB-44BA-8870-9804951D31BD}|BlazorAuthDemo.Server\\BlazorAuthDemo.Server.csproj|solutionrelative:blazorauthdemo.server\\blazorauthdemo.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB94BE0B-5ADD-4289-9794-8C52C1C58A19}|BlazorAuthDemo.Shared\\BlazorAuthDemo.Shared.csproj|c:\\users\\lucas.freitas\\source\\repos\\blazor\\simpleauth\\blazorauthdemo.shared\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB94BE0B-5ADD-4289-9794-8C52C1C58A19}|BlazorAuthDemo.Shared\\BlazorAuthDemo.Shared.csproj|solutionrelative:blazorauthdemo.shared\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +50,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\lucas.freitas\\source\\repos\\Blazor\\SimpleAuth\\BlazorAuthDemo.Server\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "BlazorAuthDemo.Server\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\lucas.freitas\\source\\repos\\Blazor\\SimpleAuth\\BlazorAuthDemo.Server\\Properties\\launchSettings.json",
+              "RelativeToolTip": "BlazorAuthDemo.Server\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-11T19:03:51.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\lucas.freitas\\source\\repos\\Blazor\\SimpleAuth\\BlazorAuthDemo.Server\\appsettings.json",
+              "RelativeDocumentMoniker": "BlazorAuthDemo.Server\\appsettings.json",
+              "ToolTip": "C:\\Users\\lucas.freitas\\source\\repos\\Blazor\\SimpleAuth\\BlazorAuthDemo.Server\\appsettings.json",
+              "RelativeToolTip": "BlazorAuthDemo.Server\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-11T19:03:46.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "PasswordHasherHelper.cs",
               "DocumentMoniker": "C:\\Users\\lucas.freitas\\source\\repos\\Blazor\\SimpleAuth\\BlazorAuthDemo.Server\\Helpers\\PasswordHasherHelper.cs",
               "RelativeDocumentMoniker": "BlazorAuthDemo.Server\\Helpers\\PasswordHasherHelper.cs",
@@ -55,46 +89,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\lucas.freitas\\source\\repos\\Blazor\\SimpleAuth\\BlazorAuthDemo.Server\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "BlazorAuthDemo.Server\\Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\lucas.freitas\\source\\repos\\Blazor\\SimpleAuth\\BlazorAuthDemo.Server\\Controllers\\UserController.cs",
               "RelativeToolTip": "BlazorAuthDemo.Server\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAABMAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAUwDEAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-10T19:18:30.343Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BlazorAuthDemo.Server",
+              "DocumentIndex": 7,
+              "Title": "BlazorAuthDemo.Server.csproj",
               "DocumentMoniker": "C:\\Users\\lucas.freitas\\source\\repos\\Blazor\\SimpleAuth\\BlazorAuthDemo.Server\\BlazorAuthDemo.Server.csproj",
               "RelativeDocumentMoniker": "BlazorAuthDemo.Server\\BlazorAuthDemo.Server.csproj",
               "ToolTip": "C:\\Users\\lucas.freitas\\source\\repos\\Blazor\\SimpleAuth\\BlazorAuthDemo.Server\\BlazorAuthDemo.Server.csproj",
               "RelativeToolTip": "BlazorAuthDemo.Server\\BlazorAuthDemo.Server.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-10T19:10:57.828Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-10T19:10:57.828Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\lucas.freitas\\source\\repos\\Blazor\\SimpleAuth\\BlazorAuthDemo.Server\\Program.cs",
               "RelativeDocumentMoniker": "BlazorAuthDemo.Server\\Program.cs",
               "ToolTip": "C:\\Users\\lucas.freitas\\source\\repos\\Blazor\\SimpleAuth\\BlazorAuthDemo.Server\\Program.cs",
               "RelativeToolTip": "BlazorAuthDemo.Server\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-10T19:08:14.728Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "AppDbcontext.cs",
               "DocumentMoniker": "C:\\Users\\lucas.freitas\\source\\repos\\Blazor\\SimpleAuth\\BlazorAuthDemo.Server\\Data\\AppDbcontext.cs",
               "RelativeDocumentMoniker": "BlazorAuthDemo.Server\\Data\\AppDbcontext.cs",
@@ -102,18 +135,17 @@
               "RelativeToolTip": "BlazorAuthDemo.Server\\Data\\AppDbcontext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T19:07:15.505Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-10T19:07:15.505Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\lucas.freitas\\source\\repos\\Blazor\\SimpleAuth\\BlazorAuthDemo.Shared\\Models\\User.cs",
               "RelativeDocumentMoniker": "BlazorAuthDemo.Shared\\Models\\User.cs",
               "ToolTip": "C:\\Users\\lucas.freitas\\source\\repos\\Blazor\\SimpleAuth\\BlazorAuthDemo.Shared\\Models\\User.cs",
               "RelativeToolTip": "BlazorAuthDemo.Shared\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAC7AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-10T19:01:37.133Z",
               "EditorCaption": ""

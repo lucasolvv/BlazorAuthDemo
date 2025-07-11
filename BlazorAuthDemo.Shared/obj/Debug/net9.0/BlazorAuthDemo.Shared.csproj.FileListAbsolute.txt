@@ -9,3 +9,4 @@ C:\Users\lucas.freitas\source\repos\Blazor\SimpleAuth\BlazorAuthDemo.Shared\obj\
 C:\Users\lucas.freitas\source\repos\Blazor\SimpleAuth\BlazorAuthDemo.Shared\obj\Debug\net9.0\refint\BlazorAuthDemo.Shared.dll
 C:\Users\lucas.freitas\source\repos\Blazor\SimpleAuth\BlazorAuthDemo.Shared\obj\Debug\net9.0\BlazorAuthDemo.Shared.pdb
 C:\Users\lucas.freitas\source\repos\Blazor\SimpleAuth\BlazorAuthDemo.Shared\obj\Debug\net9.0\ref\BlazorAuthDemo.Shared.dll
+C:\Users\lucas.freitas\source\repos\Blazor\SimpleAuth\BlazorAuthDemo.Shared\obj\Debug\net9.0\BlazorAuthDemo.Shared.sourcelink.json

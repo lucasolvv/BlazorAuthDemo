@@ -153,3 +153,5 @@ C:\Users\lucas.freitas\source\repos\Blazor\SimpleAuth\BlazorAuthDemo.Server\obj\
 C:\Users\lucas.freitas\source\repos\Blazor\SimpleAuth\BlazorAuthDemo.Server\obj\Debug\net9.0\BlazorAuthDemo.Server.pdb
 C:\Users\lucas.freitas\source\repos\Blazor\SimpleAuth\BlazorAuthDemo.Server\obj\Debug\net9.0\BlazorAuthDemo.Server.genruntimeconfig.cache
 C:\Users\lucas.freitas\source\repos\Blazor\SimpleAuth\BlazorAuthDemo.Server\obj\Debug\net9.0\ref\BlazorAuthDemo.Server.dll
+C:\Users\lucas.freitas\source\repos\Blazor\SimpleAuth\BlazorAuthDemo.Server\obj\Debug\net9.0\BlazorAuthDemo.Server.sourcelink.json
+C:\Users\lucas.freitas\source\repos\Blazor\SimpleAuth\BlazorAuthDemo.Server\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
