@@ -17,8 +17,13 @@ namespace BlazorAuthDemo.Server.Controllers
         {
             _context = context;
         }
+        [HttpGet("ping")]
+        public IActionResult Ping()
+        {
+            return Ok("API está rodando.");
+        }
 
-        [HttpPost]
+        [HttpPost("create-user")]
         public async Task<IActionResult> CreateUser(User user)
         {
             if (await _context.Users.AnyAsync(u => u.Email == user.Email))

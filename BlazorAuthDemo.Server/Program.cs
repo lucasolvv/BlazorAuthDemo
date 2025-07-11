@@ -1,5 +1,6 @@
-using BlazorAuthDemo.Server.Data;
+﻿using BlazorAuthDemo.Server.Data;
 using Microsoft.EntityFrameworkCore;
+using System;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,17 +14,26 @@ builder.Services.AddCors(options =>
     options.AddDefaultPolicy(policy =>
     {
         policy.AllowAnyOrigin()
-               .AllowAnyMethod()
-               .AllowAnyHeader();
+              .AllowAnyMethod()
+              .AllowAnyHeader();
     });
 });
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    app.MapOpenApi();
+    app.MapOpenApi(); // opcional
 }
 
 app.UseHttpsRedirection();
+
+app.UseRouting();
+
+app.UseCors();
+
+app.UseAuthorization();
+
+app.MapControllers(); // ← ESSENCIAL
+
+app.Run(); // ← MANTÉM O SERVIDOR ATIVO
