@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "JynF2KvGq48=",
+  "dgSpecHash": "oNhWN6USNxU=",
   "success": true,
   "projectFilePath": "C:\\Users\\lucas.freitas\\source\\repos\\Blazor\\SimpleAuth\\BlazorAuthDemo.Client\\BlazorAuthDemo.Client.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\lucas.freitas\\.nuget\\packages\\blazor.bootstrap\\3.4.0\\blazor.bootstrap.3.4.0.nupkg.sha512",
     "C:\\Users\\lucas.freitas\\.nuget\\packages\\microsoft.aspnetcore.authorization\\9.0.7\\microsoft.aspnetcore.authorization.9.0.7.nupkg.sha512",
     "C:\\Users\\lucas.freitas\\.nuget\\packages\\microsoft.aspnetcore.components\\9.0.7\\microsoft.aspnetcore.components.9.0.7.nupkg.sha512",
     "C:\\Users\\lucas.freitas\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\9.0.7\\microsoft.aspnetcore.components.analyzers.9.0.7.nupkg.sha512",

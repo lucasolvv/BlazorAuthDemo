@@ -2,6 +2,24 @@
   "version": 3,
   "targets": {
     "net9.0": {
+      "Blazor.Bootstrap/3.4.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "9.0.0"
+        },
+        "compile": {
+          "lib/net9.0/BlazorBootstrap.dll": {}
+        },
+        "runtime": {
+          "lib/net9.0/BlazorBootstrap.dll": {}
+        },
+        "build": {
+          "buildTransitive/Blazor.Bootstrap.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazor.Bootstrap.props": {}
+        }
+      },
       "Microsoft.AspNetCore.Authorization/9.0.7": {
         "type": "package",
         "dependencies": {
@@ -471,10 +489,38 @@
         "build": {
           "build/Microsoft.NET.Sdk.WebAssembly.Pack.props": {},
           "build/Microsoft.NET.Sdk.WebAssembly.Pack.targets": {}
+        }
+      },
+      "BlazorAuthDemo.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/BlazorAuthDemo.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BlazorAuthDemo.Shared.dll": {}
         }
       }
     },
     "net9.0/browser-wasm": {
+      "Blazor.Bootstrap/3.4.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "9.0.0"
+        },
+        "compile": {
+          "lib/net9.0/BlazorBootstrap.dll": {}
+        },
+        "runtime": {
+          "lib/net9.0/BlazorBootstrap.dll": {}
+        },
+        "build": {
+          "buildTransitive/Blazor.Bootstrap.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazor.Bootstrap.props": {}
+        }
+      },
       "Microsoft.AspNetCore.Authorization/9.0.7": {
         "type": "package",
         "dependencies": {
@@ -944,11 +990,51 @@
         "build": {
           "build/Microsoft.NET.Sdk.WebAssembly.Pack.props": {},
           "build/Microsoft.NET.Sdk.WebAssembly.Pack.targets": {}
+        }
+      },
+      "BlazorAuthDemo.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/BlazorAuthDemo.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BlazorAuthDemo.Shared.dll": {}
         }
       }
     }
   },
   "libraries": {
+    "Blazor.Bootstrap/3.4.0": {
+      "sha512": "RlK531tJCXGEoESwjDIARttoRPtOCXXQqrNwfaai7sIWir2pqsBop0gySBqN742m+K2vY9p9J7Mwwl6XcNXm6g==",
+      "type": "package",
+      "path": "blazor.bootstrap/3.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "128X128.png",
+        "README.md",
+        "blazor.bootstrap.3.4.0.nupkg.sha512",
+        "blazor.bootstrap.nuspec",
+        "build/Blazor.Bootstrap.props",
+        "build/Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "buildMultiTargeting/Blazor.Bootstrap.props",
+        "buildTransitive/Blazor.Bootstrap.props",
+        "lib/net6.0/BlazorBootstrap.dll",
+        "lib/net8.0/BlazorBootstrap.dll",
+        "lib/net9.0/BlazorBootstrap.dll",
+        "staticwebassets/Blazor.Bootstrap.7t9tbfaemk.bundle.scp.css",
+        "staticwebassets/blazor.bootstrap.css",
+        "staticwebassets/blazor.bootstrap.js",
+        "staticwebassets/blazor.bootstrap.pdf.js",
+        "staticwebassets/blazor.bootstrap.sortable-list.js",
+        "staticwebassets/blazor.bootstrap.theme-switcher.js",
+        "staticwebassets/icon/128X128.png",
+        "staticwebassets/pdfjs-4.0.379.min.js",
+        "staticwebassets/pdfjs-4.0.379.worker.min.js"
+      ]
+    },
     "Microsoft.AspNetCore.Authorization/9.0.7": {
       "sha512": "P0Gej6X5cEoK+sS9XpgYSzg0Nz8OOlvfQb12aOAJW/P4b9nAzLQCVoNp1GDyR/P8eMSnoPARiKPaa6q51iR0oA==",
       "type": "package",
@@ -1862,10 +1948,17 @@
         "tools/net9.0/Microsoft.NET.Sdk.WebAssembly.Pack.Tasks.dll",
         "tools/net9.0/Microsoft.NET.WebAssembly.Webcil.dll"
       ]
+    },
+    "BlazorAuthDemo.Shared/1.0.0": {
+      "type": "project",
+      "path": "../BlazorAuthDemo.Shared/BlazorAuthDemo.Shared.csproj",
+      "msbuildProject": "../BlazorAuthDemo.Shared/BlazorAuthDemo.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
+      "Blazor.Bootstrap >= 3.4.0",
+      "BlazorAuthDemo.Shared >= 1.0.0",
       "Microsoft.AspNetCore.Components.WebAssembly >= 9.0.7",
       "Microsoft.AspNetCore.Components.WebAssembly.Authentication >= 9.0.7",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 9.0.7",
@@ -1905,7 +1998,11 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\lucas.freitas\\source\\repos\\Blazor\\SimpleAuth\\BlazorAuthDemo.Shared\\BlazorAuthDemo.Shared.csproj": {
+              "projectPath": "C:\\Users\\lucas.freitas\\source\\repos\\Blazor\\SimpleAuth\\BlazorAuthDemo.Shared\\BlazorAuthDemo.Shared.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -1924,6 +2021,10 @@
       "net9.0": {
         "targetAlias": "net9.0",
         "dependencies": {
+          "Blazor.Bootstrap": {
+            "target": "Package",
+            "version": "[3.4.0, )"
+          },
           "Microsoft.AspNetCore.Components.WebAssembly": {
             "target": "Package",
             "version": "[9.0.7, )"

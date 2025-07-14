@@ -1,0 +1,66 @@
+﻿@page "/login"
+
+@inject HttpClient Http
+@inject NavigationManager Navigation
+@inject AuthState AuthState
+
+<h3>Login</h3>
+
+@if (!string.IsNullOrEmpty(ErrorMessage))
+{
+    <div class="alert alert-danger">
+    @ErrorMessage</div>
+}
+
+<EditForm Model="UserLogin" OnValidSubmit="HandleUserLogin">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <InputText id="email" class="form-control" @bind-Value="UserLogin.Email" />
+    </div>
+    <div class="mb-3">
+        <label for="password" class="form-label">Password</label>
+        <InputText id="password" type="password" class="form-control" @bind-Value="UserLogin.Password" />
+    </div>
+    <div class="mb-3">
+        <button type="submit" class="btn btn-primary">Login</button>
+    </div>
+</EditForm>
+
+@code {
+    private LoginModel userLogin = new();
+    private string? ErrorMessage;
+
+    private async Task HandleUserLogin()
+    {
+        ErrorMessage = null;
+        try
+        {
+            var response = await Http.PostAsJsonAsync("api/user/login", userLogin);
+            if (response.IsSuccessStatusCode)
+            {
+                var user = await response.Content.ReadFromJsonAsync<string>();
+                if (user != null)
+                {
+                    await AuthState.Login(user);
+                    Navigation.NavigateTo("/");
+                }
+            }
+            else
+            {
+                ErrorMessage = "Invalid login attempt.";
+            }
+        }
+        catch (Exception ex)
+        {
+            ErrorMessage = $"An error occurred: {ex.Message}";
+        }
+    }
+    public class LoginModel
+    {
+        public string Email { get; set; } = string.Empty;
+        public string Password { get; set; } = string.Empty;
+    }
+}

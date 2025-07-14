@@ -1,8 +1,9 @@
 {
   "mainAssemblyName": "BlazorAuthDemo.Client",
   "resources": {
-    "hash": "sha256-+el84JtaSVyBm2c90hJciwk2Pqmi+Yh8bSipt41DK5Q=",
+    "hash": "sha256-JOZCy0ZVtTGR2/8+yYd+SvOtYZDEBmztzSly87lKs8c=",
     "fingerprinting": {
+      "BlazorBootstrap.ym6tnrklwx.wasm": "BlazorBootstrap.wasm",
       "Microsoft.AspNetCore.Authorization.bvu82j4ad3.wasm": "Microsoft.AspNetCore.Authorization.wasm",
       "Microsoft.AspNetCore.Components.ptfrz3fits.wasm": "Microsoft.AspNetCore.Components.wasm",
       "Microsoft.AspNetCore.Components.Authorization.a48sropenz.wasm": "Microsoft.AspNetCore.Components.Authorization.wasm",
@@ -203,8 +204,10 @@
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "BlazorAuthDemo.Client.g0xsx4l8bb.wasm": "BlazorAuthDemo.Client.wasm",
-      "BlazorAuthDemo.Client.lpu15bt5x5.pdb": "BlazorAuthDemo.Client.pdb"
+      "BlazorAuthDemo.Shared.0aqh0h31pl.wasm": "BlazorAuthDemo.Shared.wasm",
+      "BlazorAuthDemo.Shared.9lms05ords.pdb": "BlazorAuthDemo.Shared.pdb",
+      "BlazorAuthDemo.Client.jw4inzmhel.wasm": "BlazorAuthDemo.Client.wasm",
+      "BlazorAuthDemo.Client.oghrki1zae.pdb": "BlazorAuthDemo.Client.pdb"
     },
     "jsModuleNative": {
       "dotnet.native.st0ovrfdhi.js": "sha256-MBW/zayfv+YU6mhH7y4b8NNU4D1EYd7nf9gYrFshnnY="
@@ -225,6 +228,7 @@
       "System.Private.CoreLib.s7q7c40kwm.wasm": "sha256-iGMXxmqCFT+FffsSHg2wJVdTQK5DBARA+XYzwKY1Gak="
     },
     "assembly": {
+      "BlazorBootstrap.ym6tnrklwx.wasm": "sha256-JvZh7RjGQpT7CC6gfoLZbKPPkhcor/rhKKpkCt/2lfU=",
       "Microsoft.AspNetCore.Authorization.bvu82j4ad3.wasm": "sha256-R3z3EHDfLygNZKgrLSQoa3nUMS29QCyoWiSkZCtA1qg=",
       "Microsoft.AspNetCore.Components.ptfrz3fits.wasm": "sha256-3edzx5YfT09UfFs9ODDU3tlEeGEVSuzQc3N0d9Eiiww=",
       "Microsoft.AspNetCore.Components.Authorization.a48sropenz.wasm": "sha256-GoO6RRqEkI96aa26/iYlIoSjZU96UNYAEjdZJqz0or0=",
@@ -416,10 +420,12 @@
       "WindowsBase.pg3o6xzigg.wasm": "sha256-dz62CHynC+zqTkbMOf3vm7YAhiRA8/pIoAwuqHfBL5M=",
       "mscorlib.jl2pswegra.wasm": "sha256-mSoCIDTdCQKTipW8VmFCypW/4AopZauaYRa8LoZdHvY=",
       "netstandard.uriri6ambh.wasm": "sha256-yuH/cvPd6r8N9nfPWihyckFD7hPFP+VQtQQxEqi7HIQ=",
-      "BlazorAuthDemo.Client.g0xsx4l8bb.wasm": "sha256-IDdy61wO7EAUjXgY8V1DnxnNvPmzYIkLInk2KsoLwx0="
+      "BlazorAuthDemo.Shared.0aqh0h31pl.wasm": "sha256-uAzWPLRIVrSxSHb0Xcts7x3ihn8EiJ5tb0wE4cgAJC4=",
+      "BlazorAuthDemo.Client.jw4inzmhel.wasm": "sha256-U2xO3zY4AfgCkaNvbHab1T8+0wchNMVYyMVhObcObOs="
     },
     "pdb": {
-      "BlazorAuthDemo.Client.lpu15bt5x5.pdb": "sha256-R21Yi1UJAB6OvIXqEcWD/FpUMmBBwAnYpsZJp0dj09A="
+      "BlazorAuthDemo.Shared.9lms05ords.pdb": "sha256-XdUQTAyH0C83WSg/XBh0MGSw+SMhlXZDc3MqHm3lKjM=",
+      "BlazorAuthDemo.Client.oghrki1zae.pdb": "sha256-2ILY2neGfHm+Nst1TGr6uuLLQi6KSZdxi3/D6fZm4WA="
     }
   },
   "cacheBootResources": true,
