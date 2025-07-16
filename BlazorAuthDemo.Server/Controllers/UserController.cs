@@ -48,5 +48,22 @@ namespace BlazorAuthDemo.Server.Controllers
                 return StatusCode(StatusCodes.Status500InternalServerError, "Error saving user to the database.");
             }
         }
+
+        [HttpPost("login")]
+        public async Task<IActionResult> Login([FromBody]LoginRequest credentials)
+        {
+            var user = await _context.Users
+                .FirstOrDefaultAsync(u => u.Email == credentials.Email);
+
+            if (user == null) return Unauthorized("Invalid email or password.");
+
+            if (!PasswordHasherHelper.VerifyPassword(user.Password, credentials.Password))
+            {
+                return Unauthorized("Invalid email or password.");
+            }
+
+            return Ok(user);
+
+        }
     }
 }
