@@ -1,8 +1,10 @@
 ﻿@page "/login"
-
+@using BlazorAuthDemo.Client.Services
+@using BlazorAuthDemo.Shared.Models
 @inject HttpClient Http
 @inject NavigationManager Navigation
 @inject AuthState AuthState
+
 
 <h3>Login</h3>
 
@@ -12,17 +14,17 @@
     @ErrorMessage</div>
 }
 
-<EditForm Model="UserLogin" OnValidSubmit="HandleUserLogin">
+<EditForm Model="userLogin" OnValidSubmit="HandleUserLogin">
     <DataAnnotationsValidator />
     <ValidationSummary />
 
     <div class="mb-3">
         <label for="email" class="form-label">Email</label>
-        <InputText id="email" class="form-control" @bind-Value="UserLogin.Email" />
+        <InputText id="email" class="form-control" @bind-Value="userLogin.Email" />
     </div>
     <div class="mb-3">
         <label for="password" class="form-label">Password</label>
-        <InputText id="password" type="password" class="form-control" @bind-Value="UserLogin.Password" />
+        <InputText id="password" type="password" class="form-control" @bind-Value="userLogin.Password" />
     </div>
     <div class="mb-3">
         <button type="submit" class="btn btn-primary">Login</button>
@@ -36,26 +38,20 @@
     private async Task HandleUserLogin()
     {
         ErrorMessage = null;
-        try
+        var response = await Http.PostAsJsonAsync("api/user/login", userLogin);
+        
+        if (response.IsSuccessStatusCode)
         {
-            var response = await Http.PostAsJsonAsync("api/user/login", userLogin);
-            if (response.IsSuccessStatusCode)
+            var user = await response.Content.ReadFromJsonAsync<User>();
+            if (user != null)
             {
-                var user = await response.Content.ReadFromJsonAsync<string>();
-                if (user != null)
-                {
-                    await AuthState.Login(user);
-                    Navigation.NavigateTo("/");
-                }
-            }
-            else
-            {
-                ErrorMessage = "Invalid login attempt.";
+                await AuthState.Login(user);
+                Navigation.NavigateTo("/");
             }
         }
-        catch (Exception ex)
+        else
         {
-            ErrorMessage = $"An error occurred: {ex.Message}";
+            ErrorMessage = "Invalid login attempt.";
         }
     }
     public class LoginModel
